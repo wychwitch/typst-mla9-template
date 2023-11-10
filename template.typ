@@ -6,6 +6,7 @@
   date: none,
   course: none,
   bibliography-file: none,
+  font-size: 12pt,
   body
 ) = {
   // Set document metdata.
@@ -39,14 +40,14 @@
   // Set the body font.
   set text(
     font: "Times New Roman",
-    size:   12pt,
+    size:   font-size,
   )
 
   // Configure headings.
   set heading(numbering: "1.1.a.")
   show heading: set block(spacing: 2em)
   show heading: it => {
-    set text(size: 12pt)
+    set text(size: font-size)
     set par(first-line-indent: 0in)
     
     // Create the heading numbering.
@@ -83,10 +84,25 @@
       leading: 1em
     )
     set table(stroke: none, align: center, row-gutter: 1em)
-    strong([Table #it.caption.numbering #linebreak()])
+    strong([Table #it.counter.display(it.numbering) #linebreak()])
     it.caption.body
     it.body
     it.supplement
+  }
+
+  // configure illustrations
+  show figure.where(kind: image): it => {
+    set block(spacing: 1em)
+    set par(
+      first-line-indent: 0in,
+      leading: 1em
+    )
+    it.body
+     align(
+       center,
+       [Fig. #it.counter.display(it.numbering)\. #it.caption.body]
+     )
+    
   }
 
   // MLA boilerplate

@@ -9,7 +9,8 @@
   course:[English 624], 
   profTitle: "Professor",
   date: [12 February 2012],
-  bibliography-file: "example.bib"
+  bibliography-file: "example.bib",
+  font-size: 12pt,
 )
 
 While researching texts written about nineteenth century farming, I found a few authors who published books about the literature of nineteenth century farming, particularly agricultural journals, newspapers, pamphlets, and brochures. These authors often placed the farming literature they were studying into an historical context by discussing the important events in agriculture of the year in which the literature was published (see Demaree, for example). However, while these authors discuss journals, newspapers, pamphlets, and brochures, I could not find much discussion about another important source of farming knowledge: farming handbooks. My goal in this paper is to bring this source into the agricultural literature discussion by connecting three agricultural handbooks from the nineteenth century with nineteenth century agricultural history.
@@ -67,6 +68,10 @@ Before the USDA assisted in the circulation of knowledge, however, farmers wrote
 
 #lorem(40)
 
+= CONCLUSION
+
+From examining Drown’s, Allen’s, and Crozier and Henderson’s handbooks in light of nineteenth century agricultural history, I can say that science and education seem to have had a strong influence on how and why these handbooks were written. The authors’ ethos is created by how they align themselves as farmers with science and education either by supporting or by criticizing them. Regardless of their stance, the authors needed to create an ethos to gain an audience, and they did this by including tables of information, illustrations of animals and buildings, reasons for educational reform, and pieces of advice to young farmers in their texts. It would be interesting to see if other farming handbooks of the same century also convey a similar ethos concerning science and education in agriculture. Recovering more handbooks in this way could lead to a better, more complete understanding of farming education, science’s role in farming and education, and perhaps even an understanding of the rhetoric of farming handbooks in the nineteenth century.
+
 #pagebreak()
 #figure(
     table(
@@ -88,9 +93,18 @@ Before the USDA assisted in the circulation of knowledge, however, farmers wrote
   supplement: [Adapted from National Center for Education Statistics. _Digest of Education Statistics_, 2007, #link("nces.ed.gov/programs/digest/d07/tables/dt07_297.asp")],
 ) <table_1>
 
-= CONCLUSION
+#pagebreak()
+#figure(
+  image("illustrations/photograph-workers-cutting-cane.jpg"),
+  caption: [Photograph of workers cutting cane in the Cairns district, ca 1890. _State Library of Queensland_, https://hdl.handle.net/10462/deriv/40037]
+) <figure_1>
 
-From examining Drown’s, Allen’s, and Crozier and Henderson’s handbooks in light of nineteenth century agricultural history, I can say that science and education seem to have had a strong influence on how and why these handbooks were written. The authors’ ethos is created by how they align themselves as farmers with science and education either by supporting or by criticizing them. Regardless of their stance, the authors needed to create an ethos to gain an audience, and they did this by including tables of information, illustrations of animals and buildings, reasons for educational reform, and pieces of advice to young farmers in their texts. It would be interesting to see if other farming handbooks of the same century also convey a similar ethos concerning science and education in agriculture. Recovering more handbooks in this way could lead to a better, more complete understanding of farming education, science’s role in farming and education, and perhaps even an understanding of the rhetoric of farming handbooks in the nineteenth century.
+#pagebreak()
+#figure(
+  image("illustrations/berthe-morisot-reading-1873.jpg"),
+  caption: [Berthe Morisot. Reading. 1873, Cleveland Museum of Art.]
+
+)
 
 #pagebreak()
 #align(center, "Notes")
