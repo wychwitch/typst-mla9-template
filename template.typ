@@ -7,6 +7,7 @@
   course: none,
   bibliography-file: none,
   font-size: 12pt,
+  font: "Times New Roman",
   body
 ) = {
   // Set document metdata.
@@ -39,8 +40,8 @@
 
   // Set the body font.
   set text(
-    font: "Times New Roman",
-    size:   font-size,
+    font: font,
+    size: font-size,
   )
 
   // Configure headings.
