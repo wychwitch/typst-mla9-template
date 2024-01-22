@@ -2,7 +2,7 @@
   title: "Paper Title",
   author: none,
   professor: none,
-  profTitle: "Prof",
+  profTitle: "Professor",
   date: none,
   course: none,
   bibliography-file: none,
@@ -112,7 +112,7 @@
       dir:ttb,
       spacing: 2em,
       [#author.firstname #author.lastname],
-      [#profTitle. #professor],
+      [#profTitle #professor],
       course,
       date
     )
