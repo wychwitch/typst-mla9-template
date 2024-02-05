@@ -5,9 +5,8 @@
     firstname: "E.L",
     lastname: "Angeli"
   ), 
-  professor: [Patricia Sullivan],
+  professor: [Professor Patricia Sullivan],
   course:[English 624], 
-  profTitle: "Professor",
   date: [12 February 2012],
   bibliography-file: "example.bib",
   font-size: 12pt,
