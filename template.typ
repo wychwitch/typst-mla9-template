@@ -23,7 +23,7 @@
       [
         #v(0.5in)
         #author.lastname
-        #counter(page).display("1")
+        #context(counter(page).display("1"))
       ]
     ),
     margin: 1in
@@ -35,7 +35,9 @@
     justify: false, 
     leading: 2em
   )
-  show par: set block(spacing: 2em)
+  set par( 
+    spacing: 2em 
+  )
 
   // Set the body font.
   set text(
@@ -127,7 +129,6 @@
   if bibliography-file != none {
     pagebreak()
     align(center, "Works Cited")
-    show bibliography: set block(spacing: 2em)
     show bibliography: set par(
       first-line-indent: 0in,
       hanging-indent: 0.5in
